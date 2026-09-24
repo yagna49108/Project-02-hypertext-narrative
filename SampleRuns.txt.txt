@@ -1,0 +1,141 @@
+COSC 2436 – Program Set #1
+Sample Runs
+Name: Anish Javvaji
+
+========================================
+Problem 1 – Escape Room
+========================================
+
+Run 1
+
+Input:
+C:\Users\yagna\Documents\COSC2436_ProgramSet1\floor.txt
+n
+
+Output:
+Room 1: 0 seconds
+Room 2: 30 seconds
+Run Again (Y/N): n
+
+Run 2
+
+Input:
+C:\Users\yagna\Documents\COSC2436_ProgramSet1\text2.txt
+n
+
+Output:
+Room 1: 10 seconds
+Run Again (Y/N): n
+
+========================================
+Problem 2 – OO Shut the Box
+========================================
+
+Run 1
+
+Input:
+D
+6 6
+6
+6 6
+6 6
+6 6
+N
+
+Output:
+Enter D for demo mode or G for game mode: D
+Enter two dice values: 6 6
+Die 1: 6
+Die 2: 6
+Dice sum: 12
+Legal moves: [6]
+Make a move: 6
+Is 6 open? False
+Enter two dice values: 6 6
+Die 1: 6
+Die 2: 6
+Dice sum: 12
+Legal moves: []
+No legal moves.
+Round score: 39
+Computer turn
+Enter computer dice values: 6 6
+Computer dice sum: 12
+Computer legal moves: [6]
+Computer chooses: 6
+Enter computer dice values: 6 6
+Computer dice sum: 12
+Computer legal moves: []
+Computer has no legal moves.
+Computer round score: 39
+Human total score: 39
+Computer total score: 39
+Run again? (Y/N): N
+Final Scores
+Human: 39
+Computer: 39
+It's a tie!
+
+
+Run 2
+
+Input:
+D
+2 5
+2
+3 5
+3
+6 6
+6
+6 6
+6 6
+6 6
+N
+
+Output:
+Enter D for demo mode or G for game mode: D
+Enter two dice values: 2 5
+Die 1: 2
+Die 2: 5
+Dice sum: 7
+Legal moves: [2, 5, 7]
+Make a move: 2
+Is 2 open? False
+Enter two dice values: 3 5
+Die 1: 3
+Die 2: 5
+Dice sum: 8
+Legal moves: [3, 5, 8]
+Make a move: 3
+Is 3 open? False
+Enter two dice values: 6 6
+Die 1: 6
+Die 2: 6
+Dice sum: 12
+Legal moves: [6]
+Make a move: 6
+Is 6 open? False
+Enter two dice values: 6 6
+Die 1: 6
+Die 2: 6
+Dice sum: 12
+Legal moves: []
+No legal moves.
+Round score: 34
+Computer turn
+Enter computer dice values: 6 6
+Computer dice sum: 12
+Computer legal moves: [6]
+Computer chooses: 6
+Enter computer dice values: 6 6
+Computer dice sum: 12
+Computer legal moves: []
+Computer has no legal moves.
+Computer round score: 39
+Human total score: 34
+Computer total score: 39
+Run again? (Y/N): N
+Final Scores
+Human: 34
+Computer: 39
+Winner: Human
